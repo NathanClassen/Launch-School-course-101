@@ -1,0 +1,60 @@
+
+Practice problem 1
+
+  the select method is going to return: [1, 2, 3]
+  -because for each element, it is going to look at the return value of the block, and if it's true it will return that element.
+  In this example, the block will always return true becaus the last thing evaluated in the block is a string, and strings are alwasy 'truthy'. So each element will be selected by .select
+*******************************************************************
+
+Practice problem 2
+
+  for each element, .count evaluates the block and if the block returns true, that element is counted toward the count. I found this out by looking at the ruby docs.
+*******************************************************************
+
+Practice problem 3
+
+  here the block will always return nil which is falsey, and so .reject will not 'reject' any of the elements and so it will return [1, 2, 3]
+*******************************************************************
+
+Practice problem 4
+
+  each_with_object will return a hash:
+  {'a' => 'ant', 'b' => 'bear', 'c' => 'cat'}
+  because we are passing in a hash object and then modifying it at each iteration, and .each_with_object returns the passed in object.
+*******************************************************************
+
+Practice problem 5
+
+  shift will destructively remove the 'first' key, value pair from a hash and return it as the array [key, value]
+  this can be found out via the ruby docs or trying it in irb
+*******************************************************************
+
+Practice problem 6
+
+  the return value will be the interger 11. 
+  .pop removes the last element in the array and returns it. In this case, 'caterpillar'. Because the return value of .pop is chained to .size, then the return I got this insteaddk
+*******************************************************************
+
+Practice problem 7
+
+  the blocks return value will be different with each iteration of .any? The first iteration, the blocks return value will be - #true because .odd? will have 1 passed in and that being the last line in the block will cause the block to evaluate to #true. Therefore the return value of the method will be #true because if the block returns anything but #false or #nil even once, it causes the method to evaluate to true.
+*******************************************************************
+
+Practice problem 8
+
+  .take will returns a certain number, given as an argument of .take, of elements from an array. It is not destructive. This can be found out through ruby docs or by testing in irb.
+*******************************************************************
+
+Practice problem 9
+
+  
+*******************************************************************
+
+Practice 10
+
+  the return value will be # => [1, nil, nil]
+  Because 1 will be the first to be iterated over and it will not pass the if conditional so it will be returned itself, being the argumant for the num parameter. Next two iterations, 2 and 3 will pass the conditional and puts num will be evaluated and puts always returns nil. Therefore, [1, nil, nil]
+  
+  
+  
+

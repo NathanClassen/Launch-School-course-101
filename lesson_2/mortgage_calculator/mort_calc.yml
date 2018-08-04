@@ -1,0 +1,12 @@
+welcome: 'Mortgage Calculator'
+dec: '*******************'
+entr_loan: '=> Enter your mortgage amount: $'
+loan_err: '=> Enter loan amount in integers only: $'
+entr_apr: 'Enter your APR (%)'
+apr_err: 'Enter a percentage'
+loan_dur: 'Loan duration in years(10, 15, 20, 25, 30 or 40):'
+dur_err: 'Enter a valid loan duration:'
+payments: 'Your monthly payment will be '
+another: 'Would you like another mortgage calculation? (y/n)'
+
+

@@ -1,0 +1,13 @@
+welcome: 'Welcome to calculator! Enter your name:'
+valid_name: 'Enter a valid name'
+greeting: "Hello "
+first_num: "What's the first number?"
+second_num: "What's the second number?"
+num_val_fail: 'Please enter a valid number'
+which_op: 'What operation would you like to perform?'
+op_val_fail: 'Please enter valid operator (1, 2, 3 or 4):'
+working: " the numbers..."
+answer: "The result is "
+another_calc: 'Would you like to perform another calculation? y /n'
+bye_bye: 'bye bye'
+
